@@ -3,8 +3,8 @@ import React from 'react';
 function Stats() {
     return ( 
         <div className="container p-1">
-            <div className="row p-3">
-                <div className="col-6 p-5">
+            <div className="row" style={{ marginLeft: "100px", marginRight: "100px" }}>
+                <div className="col-6">
                     <h1 className='fs-2 mb-5'>Trust with confidence</h1>
                     <h2 className='fs-4 pb-1'>Customer-first always</h2>
                     <p className='text-muted pb-2'>That's why 1.3+ crore customers trust Zerodha with &#8377;3.5+ lakh crores wroth of equity investments.</p>
