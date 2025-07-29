@@ -1,9 +1,17 @@
 import React from 'react';
+import Hero from './Hero';
+import Brokerage from './Brokerage';
+import Services from './Services';
 
 function PricingPage() {
-    return ( 
-        <h1>Pricing Page</h1>
-     );
+    return (
+        <>
+            <Hero></Hero>
+            <Services></Services>
+            <Brokerage></Brokerage>
+        </>
+
+    );
 }
 
 export default PricingPage;
