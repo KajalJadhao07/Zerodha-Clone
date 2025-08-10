@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Navbar() {
     return ( 
             <nav className="navbar navbar-expand-lg border-bottom" style={{backgroundColor: "#FFF"}}>
-                <div className="container p-3" style={{height: "20%"}}>
+                <div className="container p-1" style={{height: "15%"}}>
 
                     <Link className="navbar-brand" to="/"><img src='media/images/logo.svg' alt='logo' style={{width: "25%", display: "flex", justifyContent: "center"}}></img></Link>
 
